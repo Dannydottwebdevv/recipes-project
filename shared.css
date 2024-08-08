@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  font-size: 16px;
+}
+
+.border-container {
+  width: 85%;
+  margin: 0 auto;
+  background-color: #ffefba;
+  padding: 50px 0;
+}
+
+.border-container > * {
+  margin-left: 50px;
+}
+
+h1,
+p,
+h2,
+h3,
+img,
+ul {
+  margin-bottom: 2rem;
+}
+
+img {
+  width: 400px;
+  height: auto;
+}
+
+li {
+  margin-bottom: 5px;
+}
